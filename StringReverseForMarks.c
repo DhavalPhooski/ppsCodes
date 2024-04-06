@@ -14,11 +14,19 @@ int main(){
         temp = string[i];
         string[i] = string[j];
         string[j] = temp;
-        printf("%c %c\n",string[i],string[j]);
+    
         i++;
         j--;
     }
-
+    /*--------------------------------------------------------------------------------------------
+We can use for loop also :
+for(i=0, j=strlen(string)-1;    i<j;   i++, j--){
+        temp = string[i];
+        string[i] = string[j];
+        string[j] = temp;
+}
+    ----------------------------------------------------------------------------------------------
+  */  
     printf("\nAftering Reversing : %s",string);
     return 0;
 }
