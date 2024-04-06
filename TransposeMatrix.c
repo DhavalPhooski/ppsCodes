@@ -6,7 +6,7 @@ int main(){
     printf("Enter the value of 'm' of your nXm matrix : ");
     scanf("%d",&m);
     int matrix[n][m];
-    int transpose[m][n];
+    int transpose[m][n]; //Creating traspose matrix
 
     //scanning matrix
     printf("Enter the values of your matrix's Elements :\n");
