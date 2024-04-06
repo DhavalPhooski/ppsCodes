@@ -10,7 +10,7 @@ int main(){
     char vowels[10]={'a','e','i','o','u','A','E','I','O','U'};
     gets(a);
     int i,j,count=0, length = strlen(a);
-
+    //logic
     for(i=0;i<length;i++){
         for(j = 0;j<strlen(vowels);j++){
             if(a[i] == vowels[j]){
