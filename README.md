@@ -1,6 +1,6 @@
 <h1>
-Hello there
+Hello There
 </h1>
-I am sharing my codes
+I am sharing some pps codes
 
-Hope you like it
+Hope it helps you out!
